@@ -1,0 +1,19 @@
+{
+  "type": "automobility:auto_mechanic_table",
+  "category": "automobility:frames",
+  "ingredients": [
+    { "tag": "c:storage_blocks/iron" },
+    { "tag": "c:ingots/iron" },
+    { "tag": "c:ingots/iron" },
+    { "tag": "c:ingots/iron" },
+    { "tag": "c:storage_blocks/iron" },
+    { "tag": "c:ingots/copper" },
+    { "tag": "c:ingots/iron" }
+  ],
+  "result": {
+    "component": "moremobility:race_shopping_cart",
+    "count": 1,
+    "item": "automobility:automobile_frame"
+  },
+  "sortnum": 9990002
+}

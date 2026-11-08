@@ -1,0 +1,17 @@
+{
+  "type": "automobility:auto_mechanic_table",
+  "category": "automobility:engines",
+  "ingredients": [
+    { "tag": "c:ingots/netherite" },
+    { "item": "minecraft:furnace" },
+    { "item": "minecraft:redstone_block" },
+    { "item": "minecraft:obsidian" },
+    { "tag": "c:ingots/netherite" }
+  ],
+  "result": {
+    "component": "moremobility:netherite",
+    "count": 1,
+    "item": "automobility:automobile_engine"
+  },
+  "sortnum": 9990001
+}

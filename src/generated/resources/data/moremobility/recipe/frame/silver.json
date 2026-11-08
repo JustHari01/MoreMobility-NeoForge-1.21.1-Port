@@ -1,0 +1,18 @@
+{
+  "type": "automobility:auto_mechanic_table",
+  "category": "automobility:frames",
+  "ingredients": [
+    { "item": "minecraft:redstone" },
+    { "tag": "c:ingots/gold" },
+    { "tag": "c:ingots/iron" },
+    { "tag": "c:gems/quartz" },
+    { "tag": "c:leathers" },
+    { "tag": "c:ingots/iron" }
+  ],
+  "result": {
+    "component": "moremobility:silver",
+    "count": 1,
+    "item": "automobility:automobile_frame"
+  },
+  "sortnum": 9990001
+}
