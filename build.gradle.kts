@@ -92,8 +92,11 @@ val generateModMetadata = tasks.register<ProcessResources>("generateModMetadata"
 }
 sourceSets.main { resources.srcDir(generateModMetadata) }
 neoForge.ideSyncTask(generateModMetadata)
-tasks.named("processResources") {
+tasks.named<ProcessResources>("processResources") {
     dependsOn(tasks.named("compileJava"))
+    // NeoForge data generation leaves an incremental .cache file beside generated resources.
+    // It is build metadata, not a runtime mod resource.
+    exclude(".cache/**", "**/.cache/**")
 }
 
 tasks.jar {
